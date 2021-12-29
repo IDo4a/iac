@@ -7,8 +7,8 @@ resource "aws_db_instance" "lesson12-rds" {
   name                 = "lesson12"
   skip_final_snapshot  = true
   publicly_accessible  = true
-  username             = "admin"
-  password             = "q1q1q1q1q1"
+  username             = "lesson12"
+  password             = "lesson12"
   parameter_group_name = "default.mysql5.7"
 
   tags = {
